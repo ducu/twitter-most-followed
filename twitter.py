@@ -3,7 +3,7 @@ from tweepy import API, Cursor
 from tweepy import RateLimitHandler
 from tweepy.error import TweepError
 
-from config import CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKENS
+from config2 import CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKENS
 
 def get_api():
 	auth = RateLimitHandler(CONSUMER_KEY, CONSUMER_SECRET)
