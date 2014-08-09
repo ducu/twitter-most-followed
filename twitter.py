@@ -1,9 +1,15 @@
+"""
+Tweepy wrapper using RateLimitHandler with multiple access tokens,
+based on this fork https://github.com/svven/tweepy.
+It also handles API method cursors and splits input param lists in 
+chunks if neccessary.
+"""
 
 from tweepy import API, Cursor
 from tweepy import RateLimitHandler
 from tweepy.error import TweepError
 
-from config2 import CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKENS
+from config import CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKENS
 
 def get_api():
 	auth = RateLimitHandler(CONSUMER_KEY, CONSUMER_SECRET)
@@ -42,7 +48,7 @@ def lookup_users(**kwargs):
 		for i in xrange(0, len(l), n):
 			yield l[i:i+n]
 
-	for items_chunk in chunks(items, 100): # 100 ids
+	for items_chunk in chunks(items, 100): # 100 ids at a time
 		chunk = api.lookup_users(**dict([(param, items_chunk)]))
 		for u in chunk: yield u
 
