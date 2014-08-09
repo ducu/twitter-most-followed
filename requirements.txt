@@ -1,0 +1,8 @@
+hiredis==0.1.4
+# oauthlib==0.6.3
+redis==2.10.1
+# requests==1.2.3
+# requests-oauthlib==0.4.0
+# tweepy==2.3
+git+https://github.com/svven/tweepy.git#egg=tweepy
+# wsgiref==0.1.2
