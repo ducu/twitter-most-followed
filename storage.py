@@ -11,9 +11,9 @@ class Storage(object):
 		"Store user_data dictionary."
 		print "Set user data:\t%s\n%s" % (user_id, user_data)
 
-	# def get_user_data(self, user_id):
-	# 	"Return user_id's data."
-	# 	return None
+	def get_user_data(self, user_id):
+		"Return user_id's data."
+		return None
 
 	def is_protected(self, user_id):
 		return False
@@ -43,23 +43,31 @@ class Storage(object):
 		"Return user_id's friends list."
 		return None
 
-	def most_followed(self):
-		"""
-		Aggregate most followed users from the store.
-		Return top 5000.
-		"""
+	# Most Followed
+	def set_most_followed(self):
+		"Aggregate top most followed users from the store."
+		print "Aggregate top most followed."
+
+	def get_most_followed(self, count):
+		"Return top `count` most followed."
 		return None
 
 
 class RedisStorage(Storage):
 	"Redis storage "
-	
-	import redis
-	r = redis.StrictRedis()
+
+	def __init__(self, r):
+		"Pass in the redis object."
+		self.r = r
 
 	def set_user_data(self, user_id, user_data):
+		"Store user_data dictionary."
 		self.r.hmset('user_data:%s' % user_id, user_data)
-		super(RedisStorage, self).set_user_data(user_id, user_data)
+		# super(RedisStorage, self).set_user_data(user_id, user_data)
+
+	def get_user_data(self, user_id):
+		"Return user_id's data."
+		return self.r.hgetall('user_data:%s' % user_id)
 
 	def is_protected(self, user_id):
 		return self.r.sismember('protected_users', user_id)
@@ -94,12 +102,18 @@ class RedisStorage(Storage):
 		"Return user_id's friends list."
 		return self.r.smembers('user_friends:%s' % user_id)
 
-	def most_followed(self):
-		keys = r.keys('user_friends:*')
-		r.zunionstore('most_followed', keys)
-		return r.zrevrange('most_followed', 0, 4999, withscores=True)
+	# Most Followed
+	def set_most_followed(self):
+		"Aggregate top most followed users from the store."
+		keys = self.r.keys('user_friends:*')
+		self.r.zunionstore('most_followed', keys)
+		super(RedisStorage, self).set_most_followed()
+
+	def get_most_followed(self, count):
+		"Return top `count` most followed."		
+		return self.r.zrevrange('most_followed', 0, count-1, withscores=True)
 
 
-class FileStorage(Storage):
+class SQLiteStorage(Storage):
 	pass
 
