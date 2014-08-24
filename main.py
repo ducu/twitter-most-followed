@@ -15,7 +15,7 @@ import twitter as t
 from twitter import TweepError
 
 import redis
-r = redis.StrictRedis(db=2)
+r = redis.StrictRedis(db=0)
 
 import storage
 s = storage.RedisStorage(r)

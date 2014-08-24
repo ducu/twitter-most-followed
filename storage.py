@@ -1,6 +1,6 @@
 """
 Data storage classes for Twitter Most Followed.
-It should also perform aggregation for "most followed".
+It should also perform aggregation for top most followed.
 """
 
 class Storage(object):
