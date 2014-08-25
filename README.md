@@ -13,11 +13,30 @@ Rationale
 
 Read the whole story here: https://medium.com/@ducu/d659884fd942
 
-Test Case
----------
 
-HNers' Most Followed. 
-Top most followed by @newsyc20 followers.
+Approach
+--------
+
+Test case: HNers' Most Followed. 
+
+Considering the Hacker News community as all the followers of @newsyc20 Twitter account (Hacker News 20 - Tweeting Hacker News stories as soon as they reach 20 points. Maintained by @jeffmiller.)
+
+	```python
+	# Step 1: Select target user and load user's data
+	screen_name = 'newsyc20' # target user
+	user_id, user_data = load_user_data(screen_name=screen_name)
+
+	# Step 2: Load target user's followers
+	followers = load_followers(user_id)
+	
+	# Step 3: Load user's followers' friends
+	for follower_id in followers:
+		load_friends(user_id=follower_id)
+
+	# Step 4: Aggregate friends into top most followed and display
+	aggregate_friends() # aggregation
+	top_most_followed(100) # display results
+	```
 
 
 Requirements
@@ -26,39 +45,8 @@ Requirements
 Tweepy fork, Redis etc.
 
 
-Routine
--------
-
-1. Select target user and load user's data
-
-	```python
-	screen_name = 'newsyc20' # target user
-	user_id, user_data = load_user_data(screen_name=screen_name)
-	```
-
-2. Load target user's followers
-
-	```python
-	followers = load_followers(user_id)
-	```
-
-3. Load user's followers' friends
-
-	```python
-	for follower_id in followers:
-		load_friends(user_id=follower_id)
-	```
-
-4. Aggregate friends into top most followed and display
-
-	```python
-	aggregate_friends() # aggregation
-	top_most_followed(100) # display results
-	```
-
 Results
 -------
-
 
 
 

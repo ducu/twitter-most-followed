@@ -63,7 +63,7 @@ class RedisStorage(Storage):
 	def set_user_data(self, user_id, user_data):
 		"Store user_data dictionary."
 		self.r.hmset('user_data:%s' % user_id, user_data)
-		# super(RedisStorage, self).set_user_data(user_id, user_data)
+		super(RedisStorage, self).set_user_data(user_id, user_data)
 
 	def get_user_data(self, user_id):
 		"Return user_id's data."

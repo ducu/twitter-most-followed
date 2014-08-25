@@ -67,6 +67,10 @@ def load_friends(user_id):
 		if 'Not authorized' in str(e):
 			s.mark_protected(user_id)
 
+def aggregate_friends():
+	"Aggregate friends into top most followed."
+	s.set_most_followed()
+
 def top_most_followed(n):
 	"""
 	Display top n most followed.
@@ -84,30 +88,27 @@ def main():
 	Pick a target user (e.g. @newsyc20) and
 	find out top most followed by target user's followers.
 	"""
+	# Step 1: Select target user and load user's data
+	print "\nStep 1: %s" % datetime.now()
 	screen_name = 'newsyc20' # target user
 	# user_id = 148969874 # for @newsyc20
-
-	# Step 0: Load target user's data
 	user_id, user_data = load_user_data(screen_name=screen_name)
 
-	# Step 1: Load target user's followers
-	print "\nStep 1: %s" % datetime.now()
+	# Step 2: Load target user's followers
+	print "\nStep 2: %s" % datetime.now()
 	followers = load_followers(user_id)
 	
-	# Step 2: Load user's followers' friends
-	print "\nStep 2: %s" % datetime.now()
+	# Step 3: Load user's followers' friends
+	print "\nStep 3: %s" % datetime.now()
 	for follower_id in followers:
 		load_friends(user_id=follower_id)
 
-	# Step 3: Aggregate friends into top most followed
-	print "\nStep 3: %s" % datetime.now()
-	s.set_most_followed()
-	
+	# Step 4: Aggregate friends into top most followed and display
+	print "\nStep 4: %s" % datetime.now()
+	aggregate_friends() # aggregation
 	print "\nDone: %s" % datetime.now()
-
-	# Display results
 	print "\nTop most followed by @%s's followers" % screen_name
-	top_most_followed(100)
+	top_most_followed(100) # display results
 
 
 if __name__ == '__main__':
