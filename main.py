@@ -1,11 +1,10 @@
 """
 Twitter Most Followed
-Top most followed by @screen_name's followers.
+Top most followed by the followers of a target user.
 
 E.g.: HNers' Most Followed. 
 Top most followed by @newsyc20 followers.
-
-`screen_name = 'newsyc20'`
+`screen_name = 'newsyc20' # target user`
 
 Resulting top 301 HNers' Most Followed list:
 https://twitter.com/ducu/lists/hners-most-followed
@@ -96,16 +95,16 @@ def main():
 
 	# Step 2: Load target user's followers
 	print "\nStep 2: %s" % datetime.now()
-	followers = load_followers(user_id)
+	followers = load_followers(user_id) # target group
 	
-	# Step 3: Load user's followers' friends
+	# Step 3: Load friends of target group members
 	print "\nStep 3: %s" % datetime.now()
 	for follower_id in followers:
 		load_friends(user_id=follower_id)
 
 	# Step 4: Aggregate friends into top most followed and display
 	print "\nStep 4: %s" % datetime.now()
-	aggregate_friends() # aggregation
+	aggregate_friends() # count friend occurences
 	print "\nDone: %s" % datetime.now()
 	print "\nTop most followed by @%s's followers" % screen_name
 	top_most_followed(100) # display results
