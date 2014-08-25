@@ -1,13 +1,16 @@
 """
 Twitter Most Followed
-Top most followed by the followers of a target user.
 
-E.g.: HNers' Most Followed. 
-Top most followed by @newsyc20 followers.
-`screen_name = 'newsyc20' # target user`
+Finding out top most followed accounts by a particular
+group of Twitter users such as the Hacker News community.
+For this exercise we consider @newsyc20 as our *source*,
+and @newsyc20 followers as the HNers, our *target group*.
 
-Resulting top 301 HNers' Most Followed list:
-https://twitter.com/ducu/lists/hners-most-followed
+You can easily run the exercise for a different target
+group by specifying the corresponding target group source.
+Or you can modify the script so it considers several 
+sources to start from, such as @newsyc20, @brainpickings,
+and @ThisIsSethsBlog. This should be more interesting.
 """
 
 import twitter as t
@@ -84,25 +87,26 @@ def top_most_followed(n):
 
 def main():
 	"""
-	Pick a target user (e.g. @newsyc20) and
-	find out top most followed by target user's followers.
+	Starting from a source (e.g. @newsyc20),
+	consider the target group as the source's followers, and
+	find out top most followed accounts by the target group.
 	"""
-	# Step 1: Select target user and load user's data
-	print "\nStep 1: %s" % datetime.now()
-	screen_name = 'newsyc20' # target user
-	# user_id = 148969874 # for @newsyc20
-	user_id, user_data = load_user_data(screen_name=screen_name)
 
-	# Step 2: Load target user's followers
+	# Step 1: Specify the source
+	print "\nStep 1: %s" % datetime.now()
+	source_name = 'newsyc20' # target group source
+	source_id, source_data = load_user_data(screen_name=source_name)
+
+	# Step 2: Load target group members
 	print "\nStep 2: %s" % datetime.now()
-	followers = load_followers(user_id) # target group
+	followers = load_followers(source_id) # target group
 	
 	# Step 3: Load friends of target group members
 	print "\nStep 3: %s" % datetime.now()
 	for follower_id in followers:
 		load_friends(user_id=follower_id)
 
-	# Step 4: Aggregate friends into top most followed and display
+	# Step 4: Aggregate friends into top most followed
 	print "\nStep 4: %s" % datetime.now()
 	aggregate_friends() # count friend occurences
 	print "\nDone: %s" % datetime.now()

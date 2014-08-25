@@ -1,6 +1,5 @@
 """
 Data storage classes for Twitter Most Followed.
-It should also perform aggregation for top most followed.
 """
 
 class Storage(object):
@@ -110,7 +109,7 @@ class RedisStorage(Storage):
 		super(RedisStorage, self).set_most_followed()
 
 	def get_most_followed(self, count):
-		"Return top `count` most followed."		
+		"Return top `count` most followed."
 		return self.r.zrevrange('most_followed', 0, count-1, withscores=True)
 
 
