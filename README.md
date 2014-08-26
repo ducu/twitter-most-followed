@@ -60,9 +60,29 @@ After storing all this data, we have about 12.3K simple sets of friend ids in Re
 
 Aggregating all these sets can be easily done using the ZUNIONSTORE command with the default weight of 1. See `RedisStorage.set_most_followed()` method in [storage.py](https://github.com/ducu/twitter-most-followed/blob/master/storage.py). The problem is that for this workload, ZUNIONSTORE took more than 1 hour to execute on my 4GB machine. That was surprisingly slow, having a recent stable release of Redis, ver 2.8.9.
 
-It turned out that a [performance patch](https://github.com/antirez/redis/pull/1786) for this command had been recently added, but it was only available in the beta 8 release of Redis, ver 3.0.0. You can read about it in the [release notes](https://raw.githubusercontent.com/antirez/redis/3.0/00-RELEASENOTES). Having installed this, running the ZUNIONSTORE on the same data set took less than 2 minutes.
+It turned out that a [performance patch](https://github.com/antirez/redis/pull/1786) for this command has been recently added, but it is only available in the beta 8 release of Redis, ver 3.0.0. You can read about it in the [release notes](https://raw.githubusercontent.com/antirez/redis/3.0/00-RELEASENOTES). Having installed this, running the ZUNIONSTORE on the same data set took less than 2 minutes.
+
+---
+
+To conclude, in order to run this exercise for a big data set, make sure you have a bunch of access tokens that you can use in [config.py](https://github.com/ducu/twitter-most-followed/blob/master/config.py), and install [Redis 3.0.0 beta 8](https://github.com/antirez/redis/archive/3.0.0-beta8.tar.gz). Then `pip install -r requirements.txt` in your [virtualenv](http://virtualenv.readthedocs.org/en/latest/virtualenv.html) so you have following packages
+
+```
+hiredis==0.1.4
+redis==2.10.1
+git+https://github.com/svven/tweepy.git#egg=tweepy
+```
+
+
+Credits
+-------
+
+Thanks to Jeff Miller ([@JeffMiller](https://twitter.com/JeffMiller)) for @newsyc20. It's one of the best Hacker News Twitter bots. There's also @newsyc50, @newsyc100, and @newsyc150. Jeff actually did a similar analysis on the Hacker News community, but with a slightly different [approach](http://talkfast.org/2010/07/28/twitter-users-most-followed-by-readers-of-hacker-news/).
+
+Many thanks also to Josiah Carlson ([@dr_josiah](https://twitter.com/dr_josiah)) for his support on Redis related issues.
+
 
 Results
 -------
 
+Finally here's the top 100 most followed accounts by the Hacker News community.
 
