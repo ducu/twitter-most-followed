@@ -53,15 +53,19 @@ There are a couple of performance issues though when dealing with big data sets.
 
 We have 13.3K members in our HNers target group. In order to load the friends for each of these members (step 3), we're calling the Twitter API [friends/ids](https://dev.twitter.com/docs/api/1.1/get/friends/ids) method. This method is rate limited at 15 calls/15 minutes/token. We have to perform about 15.3K calls, since one call returns at most 5000 items. The problem is that with a single access token, it would take 10 days and 16 hours to get all this data.
 
-[Tweepy](https://github.com/tweepy/tweepy/) is the preferred Twitter API client for Python, and the current release works with a single access token. But here's a fork I created especially to extend Tweepy so it works with several access tokens in a round robin fashion transparently: https://github.com/svven/tweepy. Using about four dozen tokens I reduced the overall retrieval time to 5 hours (2 hours work time, 3 hours sleep).
+[Tweepy](https://github.com/tweepy/tweepy/) is the preferred Twitter API client for Python, and the current release works with a single access token. But here's a fork I created especially to extend Tweepy so it works with several access tokens in a round robin fashion transparently: https://github.com/svven/tweepy. Using about four dozen tokens I reduced the overall retrieval time to 5 hours (2 hours work time, 3 hours sleep). With about hundred tokens added to `RateLimitHandler`, you would get maximum efficiency out of a single Tweepy API object. See how it's done in `get_api()` from [twitter.py](https://github.com/ducu/twitter-most-followed/blob/master/twitter.py).
 
-git+https://github.com/svven/tweepy.git#egg=tweepy
+**Redis ZUNIONSTORE**
 
+After storing all this data, we have about 12.3K simple sets of friend ids in Redis, one set for each of our target group members. We are short of 1K sets because there are that many protected Twitter accounts so we cannot get their friends from Twitter API. There's an average of 1.3K items per set, ranging from 1 to 8.6M maximum items, a total of 16.2M items.
 
+Aggregating all these sets can be easily done using the ZUNIONSTORE command with the default weight of 1. See `RedisStorage.set_most_followed()` method in [storage.py](https://github.com/ducu/twitter-most-followed/blob/master/storage.py). The problem is that for this workload, ZUNIONSTORE took more than 1 hour to execute on my 4GB machine. That was surprisingly slow, having a recent stable release of Redis, ver 2.8.9.
 
+It turned out that a [performance patch](https://github.com/antirez/redis/pull/1786) for this command had been recently added, but it was only available in the beta 8 release of Redis, ver 3.0.0. You can read about it in the [release notes](https://raw.githubusercontent.com/antirez/redis/3.0/00-RELEASENOTES). Having installed this, running the ZUNIONSTORE on the same data set took less than 2 minutes.
 
 Results
 -------
+
 
 
 
