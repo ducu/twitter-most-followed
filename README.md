@@ -92,6 +92,8 @@ Popularity equals the number of followers only from within our HNers target grou
 I created a Twitter list with this top 100 for your convenience.
 You can subscribe to it here - https://twitter.com/ducu/lists/hners-most-followed
 
+[Drop me a line](mailto:alexandru.stanciu@gmail.com?Subject=Twitter%20Most%20Followed) if you want more data, I have the complete top HNers' most followed, or if you need any help running this exercise. You can easily change the starting source, just replace 'newsyc20' in main.py with any other Twitter handle, and find out the results for yourself.
+
 Cheers, [@ducu](https://twitter.com/ducu)
 
 Rank | Popularity | Name | Twitter | Followers | Friends
