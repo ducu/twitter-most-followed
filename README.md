@@ -76,9 +76,9 @@ git+https://github.com/svven/tweepy.git#egg=tweepy
 Credits
 -------
 
-Thanks to Jeff Miller ([@JeffMiller](https://twitter.com/JeffMiller)) for @newsyc20. It's one of the best Hacker News Twitter bots. There's also @newsyc50, @newsyc100, and @newsyc150. Jeff actually did a similar analysis on the Hacker News community, but with a slightly different [approach](http://talkfast.org/2010/07/28/twitter-users-most-followed-by-readers-of-hacker-news/).
+Thanks to Jeff Miller ([@JeffMiller](https://twitter.com/JeffMiller)) for @newsyc20. It's one of the best Hacker News Twitter bots. Jeff actually did a similar analysis on the Hacker News community, but with a slightly different [approach](http://talkfast.org/2010/07/28/twitter-users-most-followed-by-readers-of-hacker-news/).
 
-Many thanks also to Josiah Carlson ([@dr_josiah](https://twitter.com/dr_josiah)) for his support on Redis related issues.
+Many thanks also to Josiah Carlson ([@dr_josiah](https://twitter.com/dr_josiah)) for his valuable support on Redis related issues.
 
 
 Results
