@@ -17,8 +17,7 @@ def get_api():
 		try:
 			auth.add_access_token(key, secret)
 		except TweepError, e:
-			print e, key
-			continue
+			print key, e
 	print 'Token pool size: %d' % len(auth.tokens)
 	api = API(auth, 
 		wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
