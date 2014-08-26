@@ -112,7 +112,7 @@ def main():
 
 	# Step 4: Aggregate friends into top most followed
 	print "\nStep 4: %s" % datetime.now()
-	aggregate_friends() # count friend occurences
+	aggregate_friends() # count friend occurrences
 	print "\nDone: %s" % datetime.now()
 	print "\nTop most followed by @%s's followers" % source_name
 	top_most_followed(100) # display results

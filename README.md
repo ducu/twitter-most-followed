@@ -18,7 +18,7 @@ Approach
 
 Let's take the Hacker News community as our target group.
 
-There's a Twitter account named [@newsyc20](https://twitter.com/newsyc20/) (Hacker News 20 - "Tweeting Hacker News stories as soon as they reach 20 points."). We consider this as our **source**, and the followers of @newsyc20 as the HNers, our **target group**. To find out the top most followed accounts by our target group members, we get the complete lists of who each of them is following (aka friends), and we aggregate all these lists, counting the occurences of each friend.
+There's a Twitter account named [@newsyc20](https://twitter.com/newsyc20/) (Hacker News 20 - "Tweeting Hacker News stories as soon as they reach 20 points."). We consider this as our **source**, and the followers of @newsyc20 as the HNers, our **target group**. To find out the top most followed accounts by our target group members, we get the complete lists of who each of them is following (aka friends), and we aggregate all these lists, counting the occurrences of each friend.
 
 You can realize that the most followed account will be exactly @newsyc20, because all the members are following it. But who's on the 2nd and 3rd place? Who's in the top 100 most followed? This is what we're going to find out by running the routine below, a transcript from [main.py](https://github.com/ducu/twitter-most-followed/blob/master/main.py)
 
@@ -36,7 +36,7 @@ for follower_id in followers:
 	load_friends(user_id=follower_id)
 
 # Step 4: Aggregate friends into top most followed
-aggregate_friends() # count friend occurences
+aggregate_friends() # count friend occurrences
 top_most_followed(100) # display results
 ```
 
