@@ -79,7 +79,7 @@ def top_most_followed(n):
 	"""
 	i = 1
 	top = s.get_most_followed(n) # withscores
-	format = "%d | %d | %s | [@%s](http://twitter.com/%s) | %s | %s"
+	format = "%d | %d | %s | [@%s](https://twitter.com/%s) | %s | %s"
 	print "Rank | Popularity | Name | Twitter | Followers | Friends"
 	print "--- | --- | --- | --- | --- | ---"
 	for user_id, score in top:
