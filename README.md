@@ -1,4 +1,3 @@
-=====================
 Twitter Most Followed
 =====================
 
@@ -53,7 +52,7 @@ There are a couple of performance issues though when dealing with big data sets.
 
 We have 13.3K members in our HNers target group. In order to load the friends for each of these members (step 3), we're calling the Twitter API [friends/ids](https://dev.twitter.com/docs/api/1.1/get/friends/ids) method. This method is rate limited at 15 calls/15 minutes/token. We have to perform about 15.3K calls, since one call returns at most 5000 items. The problem is that with a single access token, it would take 10 days and 16 hours to get all this data.
 
-[Tweepy](https://github.com/tweepy/tweepy/) is the preferred Twitter API client for Python, and the current release works with a single access token. But here's a fork I created especially to extend Tweepy so it works with several access tokens in a round robin fashion transparently: https://github.com/svven/tweepy. Using about four dozen tokens I reduced the overall retrieval time to 5 hours (2 hours work time, 3 hours sleep). With about hundred tokens added to `RateLimitHandler`, you would get maximum efficiency out of a single Tweepy API object. See how it's done in `get_api()` from [twitter.py](https://github.com/ducu/twitter-most-followed/blob/master/twitter.py).
+[Tweepy](https://github.com/tweepy/tweepy/) is the preferred Twitter API client for Python, and the current release works with a single access token. But here's a fork I created especially to extend Tweepy so it works with several access tokens in a round robin fashion transparently - https://github.com/svven/tweepy. Using about four dozen tokens, the overall retrieval time was reduced to 5 hours (2 hours work time, 3 hours sleep). With about hundred tokens added to `RateLimitHandler`, you would get maximum efficiency out of a single Tweepy API object. See how it's done in `get_api()` from [twitter.py](https://github.com/ducu/twitter-most-followed/blob/master/twitter.py).
 
 **Redis ZUNIONSTORE**
 
@@ -65,7 +64,5 @@ It turned out that a [performance patch](https://github.com/antirez/redis/pull/1
 
 Results
 -------
-
-
 
 
