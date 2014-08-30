@@ -96,106 +96,105 @@ You can subscribe to it here - https://twitter.com/ducu/lists/hners-most-followe
 
 Cheers, [@ducu](https://twitter.com/ducu)
 
-Rank | Popularity | Name | Twitter | Followers | Friends
---- | --- | --- | --- | --- | ---
-1 | 12476 | Hacker News 20 | [@newsyc20](https://twitter.com/newsyc20) | 13377 | 0
-2 | 5266 | TechCrunch | [@TechCrunch](https://twitter.com/TechCrunch) | 3781036 | 872
-3 | 4600 | Bill Gates | [@BillGates](https://twitter.com/BillGates) | 17099119 | 165
-4 | 3921 | A Googler | [@google](https://twitter.com/google) | 8836866 | 411
-5 | 3890 | WIRED | [@WIRED](https://twitter.com/WIRED) | 3115526 | 72
-6 | 3562 | Twitter | [@twitter](https://twitter.com/twitter) | 31793932 | 131
-7 | 3488 | Mashable | [@mashable](https://twitter.com/mashable) | 4289712 | 2773
-8 | 3410 | The Hacker News | [@TheHackersNews](https://twitter.com/TheHackersNews) | 151838 | 2197
-9 | 3219 | Barack Obama | [@BarackObama](https://twitter.com/BarackObama) | 45567454 | 648558
-10 | 2926 | Lifehacker | [@lifehacker](https://twitter.com/lifehacker) | 1436383 | 39
-11 | 2894 | The New York Times | [@nytimes](https://twitter.com/nytimes) | 12847085 | 985
-12 | 2774 | Tim O'Reilly | [@timoreilly](https://twitter.com/timoreilly) | 1789255 | 1234
-13 | 2666 | The Economist | [@TheEconomist](https://twitter.com/TheEconomist) | 5679068 | 111
-14 | 2652 | Jack | [@jack](https://twitter.com/jack) | 2618138 | 1195
-15 | 2615 | Paul Graham | [@paulg](https://twitter.com/paulg) | 182848 | 107
-16 | 2604 | Elon Musk | [@elonmusk](https://twitter.com/elonmusk) | 864374 | 36
-17 | 2528 | The Next Web | [@TheNextWeb](https://twitter.com/TheNextWeb) | 1161272 | 1164
-18 | 2490 | YouTube | [@YouTube](https://twitter.com/YouTube) | 44628570 | 823
-19 | 2464 | CNN Breaking News | [@cnnbrk](https://twitter.com/cnnbrk) | 18354871 | 108
-20 | 2451 | GitHub | [@github](https://twitter.com/github) | 340889 | 184
-21 | 2429 | TED Talks | [@TEDTalks](https://twitter.com/TEDTalks) | 3112388 | 299
-22 | 2414 | Hacker News Bot | [@hackernewsbot](https://twitter.com/hackernewsbot) | 25807 | 0
-23 | 2410 | Wall Street Journal | [@WSJ](https://twitter.com/WSJ) | 4893760 | 914
-24 | 2362 | Ars Technica | [@arstechnica](https://twitter.com/arstechnica) | 713304 | 134
-25 | 2361 | Hacker News Network | [@ThisIsHNN](https://twitter.com/ThisIsHNN) | 36302 | 332
-26 | 2353 | NASA | [@NASA](https://twitter.com/NASA) | 7330317 | 226
-27 | 2351 | Kevin Rose | [@kevinrose](https://twitter.com/kevinrose) | 1471424 | 566
-28 | 2338 | marissamayer | [@marissamayer](https://twitter.com/marissamayer) | 650732 | 331
-29 | 2309 | Eric Schmidt | [@ericschmidt](https://twitter.com/ericschmidt) | 852540 | 207
-30 | 2300 | Y Combinator | [@ycombinator](https://twitter.com/ycombinator) | 169518 | 111
-31 | 2272 | Dropbox | [@Dropbox](https://twitter.com/Dropbox) | 3654098 | 102
-32 | 2160 | VentureBeat | [@VentureBeat](https://twitter.com/VentureBeat) | 327636 | 1445
-33 | 2116 | Robert Scoble | [@Scobleizer](https://twitter.com/Scobleizer) | 410004 | 43534
-34 | 2098 | Fast Company | [@FastCompany](https://twitter.com/FastCompany) | 1261958 | 3892
-35 | 2058 | Household Hacker | [@householdhacker](https://twitter.com/householdhacker) | 55299 | 120
-36 | 2049 | Richard Branson | [@richardbranson](https://twitter.com/richardbranson) | 4364135 | 3848
-37 | 2046 | ReadWrite | [@RWW](https://twitter.com/RWW) | 1420148 | 2634
-38 | 2032 | Forbes Tech News | [@ForbesTech](https://twitter.com/ForbesTech) | 1315334 | 16407
-39 | 2027 | Engadget | [@engadget](https://twitter.com/engadget) | 1051259 | 95
-40 | 2006 | Instagram | [@instagram](https://twitter.com/instagram) | 34642373 | 17
-41 | 1999 | Fred Wilson | [@fredwilson](https://twitter.com/fredwilson) | 348795 | 897
-42 | 1987 | Gizmodo | [@Gizmodo](https://twitter.com/Gizmodo) | 1027214 | 78
-43 | 1984 | Ev Williams | [@ev](https://twitter.com/ev) | 1738702 | 1677
-44 | 1981 | Harvard Biz Review | [@HarvardBiz](https://twitter.com/HarvardBiz) | 1648398 | 181
-45 | 1965 | WikiLeaks | [@wikileaks](https://twitter.com/wikileaks) | 2343719 | 1
-46 | 1956 | Medium | [@Medium](https://twitter.com/Medium) | 673992 | 108
-47 | 1947 | Biz Stone | [@biz](https://twitter.com/biz) | 2182676 | 624
-48 | 1939 | BBC Breaking News | [@BBCBreaking](https://twitter.com/BBCBreaking) | 10964049 | 3
-49 | 1912 | Dave McClure | [@davemcclure](https://twitter.com/davemcclure) | 233408 | 13254
-50 | 1905 | Google Developers | [@googledevs](https://twitter.com/googledevs) | 1011590 | 137
-51 | 1893 | Walt Mossberg | [@waltmossberg](https://twitter.com/waltmossberg) | 599434 | 585
-52 | 1892 | The Verge | [@verge](https://twitter.com/verge) | 525973 | 115
-53 | 1881 | Breaking News | [@BreakingNews](https://twitter.com/BreakingNews) | 6846181 | 495
-54 | 1878 | Forbes | [@Forbes](https://twitter.com/Forbes) | 3506893 | 4727
-55 | 1865 | The Onion | [@TheOnion](https://twitter.com/TheOnion) | 6112103 | 12
-56 | 1852 | Om Malik | [@om](https://twitter.com/om) | 1393171 | 1482
-57 | 1850 | Conan O'Brien | [@ConanOBrien](https://twitter.com/ConanOBrien) | 11566965 | 1
-58 | 1848 | Hacker News | [@newsycombinator](https://twitter.com/newsycombinator) | 80316 | 1
-59 | 1840 | Facebook | [@facebook](https://twitter.com/facebook) | 13892218 | 89
-60 | 1810 | Gigaom | [@gigaom](https://twitter.com/gigaom) | 251664 | 26
-61 | 1799 | Guardian Tech | [@guardiantech](https://twitter.com/guardiantech) | 2249638 | 23233
-62 | 1797 | Chris Dixon | [@cdixon](https://twitter.com/cdixon) | 139903 | 951
-63 | 1793 | Hacker Fantastic | [@hackerfantastic](https://twitter.com/hackerfantastic) | 13275 | 3390
-64 | 1789 | CNN | [@CNN](https://twitter.com/CNN) | 13746311 | 975
-65 | 1777 | Techmeme | [@Techmeme](https://twitter.com/Techmeme) | 212578 | 3
-66 | 1777 | Reuters Top News | [@Reuters](https://twitter.com/Reuters) | 4833004 | 1042
-67 | 1741 | Hootsuite | [@hootsuite](https://twitter.com/hootsuite) | 6083682 | 1614005
-68 | 1740 | Android | [@Android](https://twitter.com/Android) | 5930546 | 26
-69 | 1707 | Dalai Lama | [@DalaiLama](https://twitter.com/DalaiLama) | 9264066 | 0
-70 | 1701 | Eric Ries | [@ericries](https://twitter.com/ericries) | 180266 | 731
-71 | 1696 | Michael Arrington | [@arrington](https://twitter.com/arrington) | 188864 | 1707
-72 | 1684 | TIME.com | [@TIME](https://twitter.com/TIME) | 6112812 | 772
-73 | 1664 | 500 Startups | [@500Startups](https://twitter.com/500Startups) | 216829 | 1918
-74 | 1618 | BBC News (World) | [@BBCWorld](https://twitter.com/BBCWorld) | 7118939 | 61
-75 | 1613 | The New Yorker | [@NewYorker](https://twitter.com/NewYorker) | 3398866 | 268
-76 | 1605 | Jeff Atwood | [@codinghorror](https://twitter.com/codinghorror) | 142123 | 160
-77 | 1601 | Marc Andreessen | [@pmarca](https://twitter.com/pmarca) | 157463 | 4070
-78 | 1601 | Reid Hoffman | [@reidhoffman](https://twitter.com/reidhoffman) | 213855 | 435
-79 | 1583 | Chris Anderson | [@TEDchris](https://twitter.com/TEDchris) | 1587947 | 533
-80 | 1560 | Microsoft | [@Microsoft](https://twitter.com/Microsoft) | 5232083 | 1165
-81 | 1560 | Kara Swisher | [@karaswisher](https://twitter.com/karaswisher) | 964180 | 1013
-82 | 1556 | dick costolo | [@dickc](https://twitter.com/dickc) | 1222127 | 490
-83 | 1556 | Chris Sacca | [@sacca](https://twitter.com/sacca) | 1466482 | 799
-84 | 1554 | Stephen Colbert | [@StephenAtHome](https://twitter.com/StephenAtHome) | 6826374 | 1
-85 | 1552 | Smashing Magazine | [@smashingmag](https://twitter.com/smashingmag) | 808219 | 1159
-86 | 1552 | DHH | [@dhh](https://twitter.com/dhh) | 119710 | 184
-87 | 1545 | Neil deGrasse Tyson | [@neiltyson](https://twitter.com/neiltyson) | 2312490 | 44
-88 | 1529 | Mark Suster | [@msuster](https://twitter.com/msuster) | 170710 | 694
-89 | 1528 | Anonymous | [@YourAnonNews](https://twitter.com/YourAnonNews) | 1306755 | 873
-90 | 1527 | Mark Cuban | [@mcuban](https://twitter.com/mcuban) | 2356613 | 766
-91 | 1523 | Google Chrome | [@googlechrome](https://twitter.com/googlechrome) | 4373502 | 85
-92 | 1522 | Venture Hacks | [@venturehacks](https://twitter.com/venturehacks) | 119780 | 3
-93 | 1506 | MG Siegler | [@parislemon](https://twitter.com/parislemon) | 149725 | 998
-94 | 1503 | John Resig | [@jeresig](https://twitter.com/jeresig) | 158058 | 3044
-95 | 1496 | Hacker News 100 | [@newsyc100](https://twitter.com/newsyc100) | 6188 | 0
-96 | 1484 | News.YC | [@HackerNews](https://twitter.com/HackerNews) | 15775 | 2
-97 | 1468 | Hacker News 50 | [@newsyc50](https://twitter.com/newsyc50) | 4981 | 0
-98 | 1463 | Google Ventures | [@GoogleVentures](https://twitter.com/GoogleVentures) | 258575 | 199
-99 | 1451 | Matt Cutts | [@mattcutts](https://twitter.com/mattcutts) | 366656 | 370
-100 | 1451 | Huffington Post | [@HuffingtonPost](https://twitter.com/HuffingtonPost) | 4504186 | 5558
-
+Rank | Popularity | Followers | Friends | Name (@twitter)
+--- | --- | --- | --- | ---
+1 | 12476 | 13377 | 0 | Hacker News 20 ([@newsyc20](https://twitter.com/newsyc20))
+2 | 5266 | 3781036 | 872 | TechCrunch ([@TechCrunch](https://twitter.com/TechCrunch))
+3 | 4600 | 17099119 | 165 | Bill Gates ([@BillGates](https://twitter.com/BillGates))
+4 | 3921 | 8836866 | 411 | A Googler ([@google](https://twitter.com/google))
+5 | 3890 | 3115526 | 72 | WIRED ([@WIRED](https://twitter.com/WIRED))
+6 | 3562 | 31793932 | 131 | Twitter ([@twitter](https://twitter.com/twitter))
+7 | 3488 | 4289712 | 2773 | Mashable ([@mashable](https://twitter.com/mashable))
+8 | 3410 | 151838 | 2197 | The Hacker News ([@TheHackersNews](https://twitter.com/TheHackersNews))
+9 | 3219 | 45567454 | 648558 | Barack Obama ([@BarackObama](https://twitter.com/BarackObama))
+10 | 2926 | 1436383 | 39 | Lifehacker ([@lifehacker](https://twitter.com/lifehacker))
+11 | 2894 | 12847085 | 985 | The New York Times ([@nytimes](https://twitter.com/nytimes))
+12 | 2774 | 1789255 | 1234 | Tim O'Reilly ([@timoreilly](https://twitter.com/timoreilly))
+13 | 2666 | 5679068 | 111 | The Economist ([@TheEconomist](https://twitter.com/TheEconomist))
+14 | 2652 | 2618138 | 1195 | Jack ([@jack](https://twitter.com/jack))
+15 | 2615 | 182848 | 107 | Paul Graham ([@paulg](https://twitter.com/paulg))
+16 | 2604 | 864374 | 36 | Elon Musk ([@elonmusk](https://twitter.com/elonmusk))
+17 | 2528 | 1161272 | 1164 | The Next Web ([@TheNextWeb](https://twitter.com/TheNextWeb))
+18 | 2490 | 44628570 | 823 | YouTube ([@YouTube](https://twitter.com/YouTube))
+19 | 2464 | 18354871 | 108 | CNN Breaking News ([@cnnbrk](https://twitter.com/cnnbrk))
+20 | 2451 | 340889 | 184 | GitHub ([@github](https://twitter.com/github))
+21 | 2429 | 3112388 | 299 | TED Talks ([@TEDTalks](https://twitter.com/TEDTalks))
+22 | 2414 | 25807 | 0 | Hacker News Bot ([@hackernewsbot](https://twitter.com/hackernewsbot))
+23 | 2410 | 4893760 | 914 | Wall Street Journal ([@WSJ](https://twitter.com/WSJ))
+24 | 2362 | 713304 | 134 | Ars Technica ([@arstechnica](https://twitter.com/arstechnica))
+25 | 2361 | 36302 | 332 | Hacker News Network ([@ThisIsHNN](https://twitter.com/ThisIsHNN))
+26 | 2353 | 7330317 | 226 | NASA ([@NASA](https://twitter.com/NASA))
+27 | 2351 | 1471424 | 566 | Kevin Rose ([@kevinrose](https://twitter.com/kevinrose))
+28 | 2338 | 650732 | 331 | marissamayer ([@marissamayer](https://twitter.com/marissamayer))
+29 | 2309 | 852540 | 207 | Eric Schmidt ([@ericschmidt](https://twitter.com/ericschmidt))
+30 | 2300 | 169518 | 111 | Y Combinator ([@ycombinator](https://twitter.com/ycombinator))
+31 | 2272 | 3654098 | 102 | Dropbox ([@Dropbox](https://twitter.com/Dropbox))
+32 | 2160 | 327636 | 1445 | VentureBeat ([@VentureBeat](https://twitter.com/VentureBeat))
+33 | 2116 | 410004 | 43534 | Robert Scoble ([@Scobleizer](https://twitter.com/Scobleizer))
+34 | 2098 | 1261958 | 3892 | Fast Company ([@FastCompany](https://twitter.com/FastCompany))
+35 | 2058 | 55299 | 120 | Household Hacker ([@householdhacker](https://twitter.com/householdhacker))
+36 | 2049 | 4364135 | 3848 | Richard Branson ([@richardbranson](https://twitter.com/richardbranson))
+37 | 2046 | 1420148 | 2634 | ReadWrite ([@RWW](https://twitter.com/RWW))
+38 | 2032 | 1315334 | 16407 | Forbes Tech News ([@ForbesTech](https://twitter.com/ForbesTech))
+39 | 2027 | 1051259 | 95 | Engadget ([@engadget](https://twitter.com/engadget))
+40 | 2006 | 34642373 | 17 | Instagram ([@instagram](https://twitter.com/instagram))
+41 | 1999 | 348795 | 897 | Fred Wilson ([@fredwilson](https://twitter.com/fredwilson))
+42 | 1987 | 1027214 | 78 | Gizmodo ([@Gizmodo](https://twitter.com/Gizmodo))
+43 | 1984 | 1738702 | 1677 | Ev Williams ([@ev](https://twitter.com/ev))
+44 | 1981 | 1648398 | 181 | Harvard Biz Review ([@HarvardBiz](https://twitter.com/HarvardBiz))
+45 | 1965 | 2343719 | 1 | WikiLeaks ([@wikileaks](https://twitter.com/wikileaks))
+46 | 1956 | 673992 | 108 | Medium ([@Medium](https://twitter.com/Medium))
+47 | 1947 | 2182676 | 624 | Biz Stone ([@biz](https://twitter.com/biz))
+48 | 1939 | 10964049 | 3 | BBC Breaking News ([@BBCBreaking](https://twitter.com/BBCBreaking))
+49 | 1912 | 233408 | 13254 | Dave McClure ([@davemcclure](https://twitter.com/davemcclure))
+50 | 1905 | 1011590 | 137 | Google Developers ([@googledevs](https://twitter.com/googledevs))
+51 | 1893 | 599434 | 585 | Walt Mossberg ([@waltmossberg](https://twitter.com/waltmossberg))
+52 | 1892 | 525973 | 115 | The Verge ([@verge](https://twitter.com/verge))
+53 | 1881 | 6846181 | 495 | Breaking News ([@BreakingNews](https://twitter.com/BreakingNews))
+54 | 1878 | 3506893 | 4727 | Forbes ([@Forbes](https://twitter.com/Forbes))
+55 | 1865 | 6112103 | 12 | The Onion ([@TheOnion](https://twitter.com/TheOnion))
+56 | 1852 | 1393171 | 1482 | Om Malik ([@om](https://twitter.com/om))
+57 | 1850 | 11566965 | 1 | Conan O'Brien ([@ConanOBrien](https://twitter.com/ConanOBrien))
+58 | 1848 | 80316 | 1 | Hacker News ([@newsycombinator](https://twitter.com/newsycombinator))
+59 | 1840 | 13892218 | 89 | Facebook ([@facebook](https://twitter.com/facebook))
+60 | 1810 | 251664 | 26 | Gigaom ([@gigaom](https://twitter.com/gigaom))
+61 | 1799 | 2249638 | 23233 | Guardian Tech ([@guardiantech](https://twitter.com/guardiantech))
+62 | 1797 | 139903 | 951 | Chris Dixon ([@cdixon](https://twitter.com/cdixon))
+63 | 1793 | 13275 | 3390 | Hacker Fantastic ([@hackerfantastic](https://twitter.com/hackerfantastic))
+64 | 1789 | 13746311 | 975 | CNN ([@CNN](https://twitter.com/CNN))
+65 | 1777 | 212578 | 3 | Techmeme ([@Techmeme](https://twitter.com/Techmeme))
+66 | 1777 | 4833004 | 1042 | Reuters Top News ([@Reuters](https://twitter.com/Reuters))
+67 | 1741 | 6083682 | 1614005 | Hootsuite ([@hootsuite](https://twitter.com/hootsuite))
+68 | 1740 | 5930546 | 26 | Android ([@Android](https://twitter.com/Android))
+69 | 1707 | 9264066 | 0 | Dalai Lama ([@DalaiLama](https://twitter.com/DalaiLama))
+70 | 1701 | 180266 | 731 | Eric Ries ([@ericries](https://twitter.com/ericries))
+71 | 1696 | 188864 | 1707 | Michael Arrington ([@arrington](https://twitter.com/arrington))
+72 | 1684 | 6112812 | 772 | TIME.com ([@TIME](https://twitter.com/TIME))
+73 | 1664 | 216829 | 1918 | 500 Startups ([@500Startups](https://twitter.com/500Startups))
+74 | 1618 | 7118939 | 61 | BBC News (World) ([@BBCWorld](https://twitter.com/BBCWorld))
+75 | 1613 | 3398866 | 268 | The New Yorker ([@NewYorker](https://twitter.com/NewYorker))
+76 | 1605 | 142123 | 160 | Jeff Atwood ([@codinghorror](https://twitter.com/codinghorror))
+77 | 1601 | 157463 | 4070 | Marc Andreessen ([@pmarca](https://twitter.com/pmarca))
+78 | 1601 | 213855 | 435 | Reid Hoffman ([@reidhoffman](https://twitter.com/reidhoffman))
+79 | 1583 | 1587947 | 533 | Chris Anderson ([@TEDchris](https://twitter.com/TEDchris))
+80 | 1560 | 5232083 | 1165 | Microsoft ([@Microsoft](https://twitter.com/Microsoft))
+81 | 1560 | 964180 | 1013 | Kara Swisher ([@karaswisher](https://twitter.com/karaswisher))
+82 | 1556 | 1222127 | 490 | dick costolo ([@dickc](https://twitter.com/dickc))
+83 | 1556 | 1466482 | 799 | Chris Sacca ([@sacca](https://twitter.com/sacca))
+84 | 1554 | 6826374 | 1 | Stephen Colbert ([@StephenAtHome](https://twitter.com/StephenAtHome))
+85 | 1552 | 808219 | 1159 | Smashing Magazine ([@smashingmag](https://twitter.com/smashingmag))
+86 | 1552 | 119710 | 184 | DHH ([@dhh](https://twitter.com/dhh))
+87 | 1545 | 2312490 | 44 | Neil deGrasse Tyson ([@neiltyson](https://twitter.com/neiltyson))
+88 | 1529 | 170710 | 694 | Mark Suster ([@msuster](https://twitter.com/msuster))
+89 | 1528 | 1306755 | 873 | Anonymous ([@YourAnonNews](https://twitter.com/YourAnonNews))
+90 | 1527 | 2356613 | 766 | Mark Cuban ([@mcuban](https://twitter.com/mcuban))
+91 | 1523 | 4373502 | 85 | Google Chrome ([@googlechrome](https://twitter.com/googlechrome))
+92 | 1522 | 119780 | 3 | Venture Hacks ([@venturehacks](https://twitter.com/venturehacks))
+93 | 1506 | 149725 | 998 | MG Siegler ([@parislemon](https://twitter.com/parislemon))
+94 | 1503 | 158058 | 3044 | John Resig ([@jeresig](https://twitter.com/jeresig))
+95 | 1496 | 6188 | 0 | Hacker News 100 ([@newsyc100](https://twitter.com/newsyc100))
+96 | 1484 | 15775 | 2 | News.YC ([@HackerNews](https://twitter.com/HackerNews))
+97 | 1468 | 4981 | 0 | Hacker News 50 ([@newsyc50](https://twitter.com/newsyc50))
+98 | 1463 | 258575 | 199 | Google Ventures ([@GoogleVentures](https://twitter.com/GoogleVentures))
+99 | 1451 | 366656 | 370 | Matt Cutts ([@mattcutts](https://twitter.com/mattcutts))
+100 | 1451 | 4504186 | 5558 | Huffington Post ([@HuffingtonPost](https://twitter.com/HuffingtonPost))
