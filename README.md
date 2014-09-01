@@ -8,9 +8,9 @@ Rationale
 
 > It’s easy if you consider the whole Twitterverse. You just look at the number of followers, and you’ll get @katyperry, @justinbieber, and @BarackObama. No surprise there, right?
 
-> But what if you want to focus on a particular group of Twitter users? Let’s take the Hacker News community. Who’s in the top most followed accounts by the HNers? This is not a trivial exercise, we need a different approach, but if you're a HNer, the result will be just as predictable.
+> But what if you want to focus on a particular group of Twitter users? Let’s take the Hacker News community. Which are the most followed accounts by the HNers? This is not a trivial exercise and we need a different approach, but if you’re a HNer, the result will be just as predictable.
 
-Read the whole story here: https://medium.com/@ducu/d659884fd942
+Read the whole story here: https://medium.com/@ducu/how-to-find-out-whos-popular-on-twitter-d659884fd942
 
 
 Approach
@@ -24,7 +24,7 @@ You can realize that the most followed account will be exactly @newsyc20, becaus
 
 
 ``` python
-# Step 1: Specify the source
+# Step 1: Identify the source
 source_name = 'newsyc20' # target group source
 source_id, source_data = load_user_data(screen_name=source_name)
 

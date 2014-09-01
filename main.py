@@ -97,7 +97,7 @@ def main():
 	find out top most followed accounts by the target group.
 	"""
 
-	# Step 1: Specify the source
+	# Step 1: Identify the source
 	print "\nStep 1: %s" % datetime.now()
 	source_name = 'newsyc20' # target group source
 	source_id, source_data = load_user_data(screen_name=source_name)
